@@ -2,8 +2,7 @@
 <img src="images/logoExplorer.jpg" alt="logo azul do programa Explorer da Rocketseat"></a>
 <br>
 
-Check it out on <a href="https://eduhrodrigues.github.io/Explorer-Stage04-JS-Exercise01/
-">github.io/Explorer-Stage04-JS-Exercise01</a><br><br>
+Check it out on <a href="#">github.io/Explorer-Stage04-JS-Exercise02</a><br><br>
 
 <h1> Algorithm and Programming Logical with Javascript </h1>
 
@@ -11,29 +10,29 @@ Check it out on <a href="https://eduhrodrigues.github.io/Explorer-Stage04-JS-Exe
 Explorer Course <br>
 Stage 04 <br>
 Javascript <br>
-Exercise 01 <br> <br>
+Exercise 02 <br> <br>
 
-#### Sobre o desafio
+### Sobre o desafio <br>
 
 <aside>
-💡 O que será abordado nesse desafio:
+ Principais pontos abordados nesse desafio:
 
-- Variáveis;
-- Operações matemáticas;
+- Estrutura de dados com objetos;
+- Estrutura de repetição;
+- Criação de funções;
 - Operadores comparativos;
-- Condicional.
 
 </aside>
 
-Nesse desafio, você irá solicitar ao usuário que ele insira **dois números** e, a partir daí, calcular:
+Nesse desafio você irá criar uma lista de **estudantes** e, cada estudante dentro dessa lista, deverá conter os seguintes dados:
 
-- [ ]  A soma dos dois números;
-- [ ]  A subtração dos dois números;
-- [ ]  A multiplicação dos dois números;
-- [ ]  A divisão dos dois números;
-- [ ]  O resto da divisão dos dois números;
-- [ ]  Verifique se a soma dos dois números é par ~~(ou ímpar)~~;
-- [ ]  Verifique se os dois números inseridos são iguais ~~(ou diferentes)~~.
+- nome;
+- nota da primeira prova;
+- nota da segunda prova.
 
-Check my job on <a href="https://eduhrodrigues.github.io/Explorer-Stage04-JS-Exercise01/
-">github.io/Explorer-Stage04-JS-Exercise01</a>
+Depois de criada a lista:
+
+- [ ]  Crie uma **função** que irá calcular a média das notas de cada aluno;
+- [ ]  Supondo que a média, para esse concurso é **7**, verifique **se** cada aluno obteve sucesso ou não em entrar no concurso e mostre uma mensagem na tela.
+
+Check my job on <a href="#">github.io/Explorer-Stage04-JS-Exercise02</a>
