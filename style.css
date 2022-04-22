@@ -27,12 +27,13 @@ img {
 }
 
 img {
-  animation: shake 4s ease-in-out;
+  animation: shake 5s ease-in-out;
   animation-iteration-count: 1;
 }
 @keyframes shake {
   0% { transform: translate(-600px, 200px) rotate(0deg); }
-  33% { transform: translate(0px, -180px) rotate(00deg); }
-  66% { transform: translate(100px, -90px) rotate(0deg); }
-  100% { transform: translate(0px, 0px) rotate(0deg); }
+  33% { transform: translate(0px, -180px) rotate(180deg); }
+  66% { transform: translate(100px, -90px) rotate(260deg); }
+  100% { transform: translate(0px, 0px) rotate(360deg); }
+  
 }
