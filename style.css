@@ -30,22 +30,17 @@ img {
 
 img {
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 10s;
+  animation: shake 4s ease-in-out;
 
   /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 @keyframes shake {
-  0% { transform: translate(-400px, 40px) rotate(0deg); }
-  10% { transform: translate(-400px, -40px) rotate(-90deg); }
-  20% { transform: translate(-300px, 80px) rotate(80deg); }
-  30% { transform: translate(-200px, -80px) rotate(-80deg); }
-  40% { transform: translate(-100px, 60px) rotate(70deg); }
-  50% { transform: translate(0px, -60px) rotate(-70deg); }
-  60% { transform: translate(100px, 40px) rotate(60deg); }
-  70% { transform: translate(200px, -40px) rotate(-60deg); }
-  80% { transform: translate(300px, 100px) rotate(50deg); }
-  90% { transform: translate(400px, 100px) rotate(-50deg); }
-  100% { transform: translate(400px, 100px) rotate(0deg); }
+  0% { transform: translate(-600px, 200px) rotate(0deg); }
+  33% { transform: translate(0px, -180px) rotate(00deg); }
+  66% { transform: translate(100px, -90px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+  
+ 
 }
