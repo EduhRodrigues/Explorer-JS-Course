@@ -31,7 +31,7 @@ let ararasAverageHabitat02 = []
 let ararasAverageHabitat03 = []
 
 for (let arara of araras){
-  ararasSpecie.push(arara.specie)
+  ararasSpecie.push(arara.specie) //pega a chave e o valor do atributo 'specie' do objeto 'araras' salvo na variável 'arara' e coloca como valor da variável 'ararasSpecie', que foi criada como um objeto vazio. 
 }
 for (let arara of araras){
   ararasAverageHabitat01.push(arara.averageHabitat01)
